@@ -5,7 +5,7 @@ const Player = require('../lib/Player');
 console.log(new Potion());
 
 // SyntaxError: Identifier 'jest' has already been declared- means that there is a term that has been repeated and is not needed
-// const { test, expect, jest } = require('@jest/globals')
+// ie const { test, expect, jest } = require('@jest/globals')
 
 //replaces the constructor's implementation with faked data
 jest.mock('../lib/Potion');
